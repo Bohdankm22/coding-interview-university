@@ -3,10 +3,7 @@
 ## Table of Contents
 
 - [Why use it?](#why-use-it)
-- [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
-- [About Video Resources](#about-video-resources)
 - [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
-- [Pick One Language for the Interview](#pick-one-language-for-the-interview)
 - [Book List](#book-list)
 - [Before you Get Started](#before-you-get-started)
 - [What you Won't See Covered](#what-you-wont-see-covered)
@@ -161,26 +158,8 @@ Sometimes the classes are not in session so you have to wait a couple of months,
 
 ## Pick One Language for the Interview
 
-You can use a language you are comfortable in to do the coding part of the interview, but for large companies, these are solid choices:
-
-- C++
-- Java
-- Python
-
-You could also use these, but read around first. There may be caveats:
-
-- JavaScript
-- Ruby
-
-You need to be very comfortable in the language and be knowledgeable.
-
-Read more about choices:
-- http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
-- http://blog.codingforinterviews.com/best-programming-language-jobs/
-
-[See language resources here](programming-language-resources.md)
-
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+Java - the only one)
+Python - 2nd choice.
 
 ## Book List
 
@@ -197,7 +176,6 @@ This is a shorter list than what I used. This is abbreviated to save you time.
 
 If you have tons of extra time:
 
-- [ ] [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
 - [ ] Elements of Programming Interviews (Java version)
     - [book](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
     - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
@@ -227,21 +205,10 @@ If you have more time (I want this book):
 
 ### Language Specific
 
-**You need to choose a language for the interview (see above).** Here are my recommendations by language. I don't have resources for all languages. I welcome additions.
-
 If you read though one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems.
 **You can skip all the video lectures in this project**, unless you'd like a review.
 
 [Additional language-specific resources here.](programming-language-resources.md)
-
-### C++
-
-I haven't read these two, but they are highly rated and written by Sedgewick. He's awesome.
-
-- [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
-- [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
-
-If you have a better recommendation for C++, please let me know. Looking for a comprehensive resource.
 
 ### Java
 

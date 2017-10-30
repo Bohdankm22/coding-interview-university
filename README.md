@@ -453,13 +453,13 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [ ] implement (I did with tail pointer & without):
         - [x] size() - returns number of data elements in list
         - [x] empty() - bool returns true if empty
-        - [ ] valueAt(index) - returns the value of the nth item (starting at 0 for first)
-        - [ ] addFirst(value) - adds an item to the front of the list
-        - [ ] popFirst() - remove front item and return its value
+        - [x] get(index) - returns the value of the nth item (starting at 0 for first)
+        - [x] addFirst(value) - adds an item to the front of the list
+        - [x] popFirst() - remove front item and return its value
         - [x] add(value) - adds an item at the end
-        - [ ] pop() - removes end item and returns its value
-        - [ ] getFirst() - get value of front item
-        - [ ] getLast() - get value of end item
+        - [x] pop() - removes end item and returns its value
+        - [x] getFirst() - get value of front item
+        - [x] getLast() - get value of end item
         - [ ] add(index, value) - insert value at index, so current item at that index is pointed to by new item at index
         - [ ] remove(index) - removes node at given index
         - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list

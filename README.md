@@ -460,19 +460,18 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [x] pop() - removes end item and returns its value
         - [x] getFirst() - get value of front item
         - [x] getLast() - get value of end item
-        - [ ] add(index, value) - insert value at index, so current item at that index is pointed to by new item at index
+        - [x] add(index, value) - insert value at index, so current item at that index is pointed to by new item at index
         - [ ] remove(index) - removes node at given index
         - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
         - [ ] reverse() - reverses the list
         - [ ] remove_value(value) - removes the first item in the list with this value
-    - [ ] Doubly-linked List
+    - [x] Doubly-linked List
         - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
         - No need to implement
 
 - ### Stack
-    - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-    - [ ] [Using Stacks Last-In First-Out (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
-    - [ ] Will not implement. Implementing with array is trivial.
+    - [x] [Using Stacks Last-In First-Out (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
+    - [x] Will not implement. Implementing with array is trivial. Also implemented as part of LinkedList.
 
 - ### Queue
     - [ ] [Using Queues First-In First-Out(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)

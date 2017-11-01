@@ -520,7 +520,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 - ### Bitwise operations
     - [x] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
     - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
-        - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
+        - [x] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] Good intro:
             [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I)
         - [ ] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
@@ -934,7 +934,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] [2007: What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections)](https://www.akkadia.org/drepper/cpumemory.pdf)
     - [ ] [2010: Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google.com/pubs/archive/36356.pdf)
     - [ ] [2010: Dremel: Interactive Analysis of Web-Scale Datasets](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf)
-    - [ ] [2012: Google's Colossus](https://www.wired.com/2012/07/google-colossus/)
+    - [x] [2012: Google's Colossus](https://www.wired.com/2012/07/google-colossus/)
         - paper not available
     - [ ] 2012: AddressSanitizer: A Fast Address Sanity Checker:
         - [paper](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf)
@@ -1381,7 +1381,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
 - ### Unix command line tools
     - I filled in the list below from good tools.
     - [ ] bash
-    - [ ] cat
+    - [x] cat
     - [ ] grep
     - [ ] sed
     - [ ] awk

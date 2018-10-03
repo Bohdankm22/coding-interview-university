@@ -1,5 +1,57 @@
 # Coding Interview University
 
+> I originally created this as a short to-do list of study topics for becoming a software engineer,
+> but it grew to the large list you see today. After going through this study plan, [I got hired
+> as a Software Development Engineer at Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
+> You probably won't have to study as much as I did. Anyway, everything you need is here.
+>
+> The items listed here will prepare you well for an interview at just about any software company,
+> including the giants: Amazon, Facebook, Google or Microsoft.
+>
+> *Best of luck to you!*
+
+Translations:
+- [中文版本](translations/README-cn.md)
+- [Tiếng Việt - Vietnamese](translations/README-vi.md)
+- [Español](translations/README-es.md)
+- [Português Brasileiro](translations/README-ptbr.md)
+
+Translations in progress:
+- [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
+- [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
+- [Bahasa Indonesia](https://github.com/jwasham/coding-interview-university/issues/101)
+- [Arabic](https://github.com/jwasham/coding-interview-university/issues/98)
+- [Turkish](https://github.com/jwasham/coding-interview-university/issues/90)
+- [French](https://github.com/jwasham/coding-interview-university/issues/89)
+- [Russian](https://github.com/jwasham/coding-interview-university/issues/87)
+- [Ukrainian](https://github.com/jwasham/coding-interview-university/issues/106)
+- [Korean(한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
+- [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
+- [Polish](https://github.com/jwasham/coding-interview-university/issues/122)
+- [Urdu](https://github.com/jwasham/coding-interview-university/issues/140)
+- [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
+- [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
+- [Italian](https://github.com/jwasham/coding-interview-university/issues/170)
+- [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
+- [Japanese (日本語)](https://github.com/jwasham/coding-interview-university/issues/257)
+
+## What is it?
+
+This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
+
+![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
+
+This is meant for **new software engineers** or those switching from
+software/web development to software engineering (where computer science knowledge is required). If you have
+many years of experience and are claiming many years of software engineering experience, expect a harder interview.
+
+If you have many years of software/web development experience, note that large software companies like Google, Amazon,
+Facebook and Microsoft view software engineering as different from software/web development, and they require computer science knowledge.
+
+If you want to be a reliability engineer or operations engineer, study more from the optional list (networking, security).
+
+---
+
 ## Table of Contents
 
 - [Why use it?](#why-use-it)
@@ -128,6 +180,7 @@ It's a long plan. It may take you months. If you are familiar with a lot of this
 - Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- [Believe you can change](http://www.aaronsw.com/weblog/dweck)
 
 ## About Video Resources
 
@@ -195,8 +248,9 @@ If short on time:
 
 If you have more time (I want this book):
 
-- [ ] [Computer Architecture, Fifth Edition: A Quantitative Approach](https://www.amazon.com/dp/012383872X/)
-    - For a richer, more up-to-date (2011), but longer treatment
+- [ ] [Computer Architecture, Sixth Edition: A Quantitative Approach](https://www.amazon.com/dp/0128119055)
+    - For a richer, more up-to-date (2017), but longer treatment
+
 
 ### Language Specific
 
@@ -349,8 +403,10 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 ## Prerequisite Knowledge
 
 - [ ] **How computers process a program:**
-    - [x] [How does CPU execute program (video)](https://www.youtube.com/watch?v=42KTvGYQYnA)
-    - [x] [Machine Code Instructions (video)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
+    - [ ] [How computers calculate - ALU (video)](https://youtu.be/1I5ZMmrOfnA)
+    - [ ] [Registers and RAM (video)](https://youtu.be/fpnE6UAfbtU)
+    - [ ] [The Central Processing Unit (CPU) (video)](https://youtu.be/FZGugFqdr60)
+    - [ ] [Instructions and Programs (video)](https://youtu.be/zltgXvg6r3k)
 
 ## Algorithmic complexity / Big-O / Asymptotic analysis
 - nothing to implement
@@ -368,8 +424,8 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 - [ ] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] [Illustrating "Big O" (video)](https://class.coursera.org/algorithmicthink1-004/lecture/63)
 - [ ] TopCoder (includes recurrence relations and master theorem):
-    - [Computational Complexity: Section 1](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/)
-    - [Computational Complexity: Section 2](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/)
+    - [Computational Complexity: Section 1](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
+    - [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
 
 
@@ -454,8 +510,8 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [x] Will not implement. Implementing with array is trivial. Also implemented as part of LinkedList.
 
 - ### Queue
-    - [x] [Using Queues First-In First-Out(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
-    - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
+    - [ ] [Using Queues First-In First-Out(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
+    - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] [Priority Queues (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
     - [x] Implement using linked-list, with tail pointer:
@@ -505,10 +561,10 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 - ### Binary search
     - [x] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
     - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
-    - [ ] [detail](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
-    - [x] Implement:
-        - [x] binary search (on sorted array of integers)
-        - [x] binary search using recursion
+    - [ ] [detail](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
+    - [ ] Implement:
+        - binary search (on sorted array of integers)
+        - binary search using recursion
 
 - ### Bitwise operations
     - [x] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
@@ -868,7 +924,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 - ### Processes and Threads
     - [ ] Computer Science 162 - Operating Systems (25 videos):
         - for processes and threads see videos 1-11
-        - [Operating Systems and System Programming (video)](https://www.youtube.com/playlist?list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
+        - [Operating Systems and System Programming (video)](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
     - [What Is The Difference Between A Process And A Thread?](https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread)
     - Covers:
         - Processes, Threads, Concurrency issues
@@ -978,7 +1034,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] [Performance Of Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
         - [ ] [Implementing A Trie (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
     - [ ] [The Trie: A Neglected Data Structure](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
-    - [ ] [TopCoder - Using Tries](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/)
+    - [ ] [TopCoder - Using Tries](https://www.topcoder.com/community/competitive-programming/tutorials/using-tries/)
     - [ ] [Stanford Lecture (real world use case) (video)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
     - [ ] [MIT, Advanced Data Structures, Strings (can get pretty obscure about halfway through)](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
 
@@ -1065,7 +1121,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] [Introduction to Architecting Systems for Scale](http://lethain.com/introduction-to-architecting-systems-for-scale/)
     - [ ] [Scaling mobile games to a global audience using App Engine and Cloud Datastore (video)](https://www.youtube.com/watch?v=9nWyWwY2Onc)
     - [ ] [How Google Does Planet-Scale Engineering for Planet-Scale Infra (video)](https://www.youtube.com/watch?v=H4vMcD7zKM0)
-    - [ ] [The Importance of Algorithms](https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/)
+    - [ ] [The Importance of Algorithms](https://www.topcoder.com/community/competitive-programming/tutorials/the-importance-of-algorithms/)
     - [ ] [Sharding](http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html)
     - [ ] [Scale at Facebook (2009)](https://www.infoq.com/presentations/Scale-at-Facebook)
     - [ ] [Scale at Facebook (2012), "Building for a Billion Users" (video)](https://www.youtube.com/watch?v=oodS71YtkGU)
@@ -1206,8 +1262,8 @@ I added the pen in the photo for scale. If you use a pen, you'll wish you could 
 
 Supplemental:
 
-- [Mathematics for Topcoders](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/)
-- [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
+- [Mathematics for Topcoders](https://www.topcoder.com/community/competitive-programming/tutorials/mathematics-for-topcoders/)
+- [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)
 - [MIT Interview Materials](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
 - [Exercises for getting better at a given language](http://exercism.io/languages)
 
@@ -1225,8 +1281,8 @@ See [Book List above](#book-list)
 Once you've learned your brains out, put those brains to work.
 Take coding challenges every day, as many as you can.
 
-- [ ] [How to Find a Solution](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
-- [ ] [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/)
+- [ ] [How to Find a Solution](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-find-a-solution/)
+- [ ] [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-dissect-a-topcoder-problem-statement/)
 
 Coding Interview Question Videos:
 - [IDeserve (88 videos)](https://www.youtube.com/watch?v=NBcqBddFbZw&list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
@@ -1330,7 +1386,7 @@ You're never really done.
 - [ ] [Design Patterns: Elements of Reusable Object-Oriente​d Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
     - aka the "Gang Of Four" book, or GOF
     - the canonical design patterns book
-- [ ] [UNIX and Linux System Administration Handbook, 4th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057/)
+- [ ] [UNIX and Linux System Administration Handbook, 5th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0134277554/)
 
 ## Additional Learning
 
@@ -1424,7 +1480,6 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
         - [ ] [Side-Channel Attacks](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
 - ### Garbage collection
-    - [ ] [Garbage collection (Java); Augmenting data str (video)](https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25)
     - [ ] [Compilers (video)](https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff)
     - [ ] [GC in Python (video)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
     - [ ] [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)
@@ -1491,7 +1546,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [ ] [CS 61B Lecture 39: Augmenting Data Structures](https://archive.org/details/ucberkeley_webcast_zksIj9O8_jc)
 
 - ### Balanced search trees
-    - Know least one type of balanced binary tree (and know how it's implemented):
+    - Know at least one type of balanced binary tree (and know how it's implemented):
     - "Among balanced search trees, AVL and 2/3 trees are now passé, and red-black trees seem to be more popular.
         A particularly interesting self-organizing data structure is the splay tree, which uses rotations
         to move any accessed key to the root." - Skiena
@@ -1539,7 +1594,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
         - [ ] [Aduni - Algorithms - Lecture 4 (link jumps to starting point) (video)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
         - [ ] [Aduni - Algorithms - Lecture 5 (video)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
         - [ ] [Red-Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
-        - [ ] [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-binary-search-and-red-black-trees/)
+        - [ ] [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/community/competitive-programming/tutorials/an-introduction-to-binary-search-and-red-black-trees/)
 
     - [ ] **2-3 search trees**
         - In practice:
@@ -1736,7 +1791,7 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [ ] [Excellent - MIT Calculus Revisited: Single Variable Calculus](https://www.youtube.com/playlist?list=PL3B08AE665AB9002A)
 
-- [ ] [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](https://www.youtube.com/playlist?list=PL-XXv-cvA_iD8wQm8U0gG_Z1uHjImKXFy)
+- [ ] [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](http://www.infocobuild.com/education/audio-video-courses/computer-science/cs70-spring2015-berkeley.html)
 
 - [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
 
